@@ -22,7 +22,8 @@ select * from Region
 3. Select the FirstName and LastName columns from the Employees table.
 Sort by LastName.
 <pre>
-...
+SELECT FirstName , LastName from Employees 
+ORDER BY  LastName DESC
 </pre>
 4. Create a report showing Northwind's orders sorted by Freight from most expensive to
 cheapest. Show OrderID, OrderDate, ShippedDate, CustomerID, and Freight.
